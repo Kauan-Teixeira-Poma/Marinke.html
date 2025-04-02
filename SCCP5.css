@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+  background: linear-gradient(to bottom, white, black);
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+
+.txt{
+    
+    text-align: center;
+}
+
+.Btn{
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    color: red;
+    margin: 200px 5px;
+    border-radius: 500px;
+    padding: 10px 20px;
+    font-weight: 750;
+    cursor: pointer;
+    transition: background-color 0.6s;  
+}
+
+button:hover{
+   background-color: black;
+}
