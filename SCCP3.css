@@ -5,12 +5,57 @@ body{
 
 h1{
     text-align: center;
-    color: black;
+    color: white;
+    background-color: black;
 }
 
-h2{
-    text-align: center;
-    
+/* Estilos gerais da tabela */
+.tabela-estilizada {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho da tabela */
+.tabela-estilizada thead {
+    background-color: #f8f9fa;
+}
+
+.tabela-estilizada th {
+    padding: 12px 15px;
+    text-align: left;
+    color: #212529;
+    font-weight: 600;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Células da tabela */
+.tabela-estilizada td {
+    padding: 10px 15px;
+    color: #495057;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Linhas alternadas */
+.tabela-estilizada tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.tabela-estilizada tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+/* Efeito hover */
+.tabela-estilizada tbody tr:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.2s ease;
+}
+
+/* Borda superior da primeira linha */
+.tabela-estilizada tbody tr:first-child td {
+    border-top: 2px solid #dee2e6;
 }
 
 
